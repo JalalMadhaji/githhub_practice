@@ -1,0 +1,34 @@
+*{
+margin:0;
+padding:0;
+}
+.row{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex1{
+    flex: 1;
+}
+
+.wrapper{
+    background: #fff;
+    display: flex;
+  margin: 25% 50%;
+}
+.container{
+    margin:30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .row{
+        flex-direction: column;
+    }
+  }
