@@ -163,6 +163,20 @@ body {
   .footer address span {
     color: red;
   }
+  .up img{
+      height: 350px;
+      width: 100%;
+      margin:0 auto;
+  }
+  .up h1{
+color: black;
+}
+.up p{
+   color: rgb(15, 15, 119);
+}
+.up span{
+color: brown;
+}
   
 
 @media only screen and (max-width: 900px) {
