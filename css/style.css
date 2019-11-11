@@ -246,6 +246,32 @@ footer {
   .menu .burger {
     display: block;
   }
+  .center-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 50px auto;
+    grid-gap: 30px;
+    justify-content: space-around;
+  }
+  .center-content i {
+    font-size: 50px;
+    color: #555;
+  }
+  .center-content p {
+    margin: 10px auto;
+  }
+  .footer address {
+    margin-top: 50px;
+    opacity: 0.7;
+  }
+  .footer address span {
+    color: red;
+  }
+  /* .up img {
+    height: 350px;
+    width: 350px;
+    margin: 0 auto;
+  } */
 }
 .menu nav.shown-nav {
   right: 0;
