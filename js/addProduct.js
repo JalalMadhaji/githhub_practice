@@ -26,11 +26,9 @@ document.getElementById("addProductForm").addEventListener("submit",e=>{
     .then(response=>response.json())
     .then(json => {
         console.log(json);
-        console.log(json.body);
-        console.log(json.headers);
     })
-    // .catch(e => {
-    //     console.log("error");
-    // })
+    .catch(e => {
+        console.log("error");
+    })
 
 });
